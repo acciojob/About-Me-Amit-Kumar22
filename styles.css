@@ -1,1 +1,83 @@
+/* #gameContainer{
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: black;
+}
+.food{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: brown;
+}
+.snakeBodyPixel{
+  margin: 45px;
+  height: 15px;
+  width: 65px;
+  background-color: bisque;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+} */
 
+
+.main>div{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.left{
+  width: 50%;
+}
+.right{
+  width: 50%;
+}
+#container1{
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(167, 210, 203);
+}
+img{
+  height: 140px;
+  width: 125px;
+}
+.up-body>div{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.text{
+  margin-left: 20px;
+}
+.down-body{
+  display: flex;
+  flex-direction: column;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+
+.skill-name{
+  display: flex;
+  justify-content: space-between;
+}
+.heading{
+ text-decoration: underline blue 5px;
+}
